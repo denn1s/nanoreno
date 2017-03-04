@@ -1,5 +1,7 @@
 import React, { PropTypes } from 'react'
-import { Layout, Null } from 'Components'
+import { Layout,
+         FullscreenBackground as Background,
+         Null } from 'Components'
 
 
 class Cut extends React.Component {
@@ -23,6 +25,7 @@ class Cut extends React.Component {
     return (
       <Layout>
         <Textbox name="Schoolgirl B" text={text} />
+        <Background kind="forest" number="1" />
       </Layout>
     )
   }

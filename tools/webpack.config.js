@@ -48,6 +48,7 @@ const config = {
   resolve: {
     alias: {
       Components: path.resolve(__dirname, '../src/components/'),
+      Assets: path.resolve(__dirname, '../assets/'),
     },
     extensions: ['.json', '.js', '.jsx']
   },
@@ -132,7 +133,14 @@ const config = {
         loader: path.resolve(__dirname, './markdown-loader.js'),
       },
       {
-        test: /\.(png|jpg|jpeg|gif|svg|woff|woff2)$/,
+        test: /\.(woff|woff2)$/,
+        loader: 'url-loader',
+        options: {
+          limit: 10000,
+        },
+      },
+      {
+        test: /\.(png|jpg|jpeg|gif)$/,
         loader: 'url-loader',
         options: {
           limit: 10000,
