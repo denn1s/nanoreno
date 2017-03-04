@@ -36,6 +36,10 @@ function matchURI(route, path) {
   return params
 }
 
+const SCENEDEFAULTS = {
+  textbox: "NormalTextbox",
+}
+
 // Find the route matching the specified location (context), fetch the required data,
 // instantiate and return a React component
 function resolve(routes, context) {
@@ -47,7 +51,10 @@ function resolve(routes, context) {
     }
 
     if (route.data) {
-      const props = route.data
+      const props = {
+        ...SCENEDEFAULTS,
+        ...route.data
+      }
       return route.load().then(Page => <Page route={{ ...route, params }} error={context.error} {...props} />)
     }
     return route.load().then(Page => <Page route={{ ...route, params }} error={context.error} />)

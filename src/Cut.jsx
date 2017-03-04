@@ -4,7 +4,8 @@ import { Layout, Null } from 'Components'
 
 class Cut extends React.Component {
   static propTypes = {
-    textbox: PropTypes.string
+    textbox: PropTypes.string,
+    text: PropTypes.string,
   }
 
   constructor(props) {
@@ -16,12 +17,12 @@ class Cut extends React.Component {
   }
 
   render() {
+    const { text } = this.props
     const { Textbox } = this.elements
 
     return (
       <Layout>
-        <h1>SOMETEXT</h1>
-        <Textbox name="Schoolgirl B" text="Sample text"/>
+        <Textbox name="Schoolgirl B" text={text} />
       </Layout>
     )
   }
