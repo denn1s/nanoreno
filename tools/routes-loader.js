@@ -41,9 +41,9 @@ module.exports = function routesLoader(source) {
     }
     output.push(`    load() {\n      return ${require(route.page)};\n    },\n`)
     output.push('  },\n')
+    cutNum += 1
   }
 
   output.push(']')
-  cutNum += 1
   return `export default ${output.join('')};`
 }
