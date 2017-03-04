@@ -1,4 +1,4 @@
 export Layout from './Layout/Layout'
-export NormalTextbox from './Textbox/NormalTextbox'
+export Textbox from './Textbox/Textbox'
 export Null from './Null'
-export FullscreenBackground from './Background/FullscreenBackground'
+export Background from './Background/Background'

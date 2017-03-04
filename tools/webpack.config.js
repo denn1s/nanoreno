@@ -108,11 +108,12 @@ const config = {
       },
       {
         test: /\.json$/,
-        exclude: [
-          path.resolve(__dirname, '../src/scenes.json'),
-        ],
+        // exclude: [
+        //  path.resolve(__dirname, '../src/scenes.json'),
+        // ],
         loader: 'json-loader',
       },
+      /*
       {
         test: /\.json$/,
         include: [
@@ -128,6 +129,7 @@ const config = {
           },
         ],
       },
+      */
       {
         test: /\.md$/,
         loader: path.resolve(__dirname, './markdown-loader.js'),

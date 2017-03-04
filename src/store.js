@@ -1,15 +1,23 @@
-import { createStore } from 'redux';
+import { createStore } from 'redux'
 
-const initialState = { count: 0 };
 
-const store = createStore((state = initialState, action) => {
-  // TODO: Add action handlers (aka "reducers")
+const initialState = {
+  configs: require('Assets/configs.json'),
+  cuts: require('Assets/cuts.json')
+}
+
+
+const reducer = (state = initialState, action) => {
   switch (action.type) {
-    case 'COUNT':
+     case 'COUNT':
       return { ...state, count: (state.count) + 1 };
     default:
       return state;
   }
-});
+}
+
+
+const store = createStore(reducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+
 
 export default store;

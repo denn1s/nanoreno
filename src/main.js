@@ -7,10 +7,11 @@ import FastClick from 'fastclick'
 import { Provider } from 'react-redux'
 
 import store from './store'
-import router from './player'
 import history from './history'
 
-let routes = require('./scenes.json').default
+import Scene from './Scene'
+
+// let routes = require('./scenes.json').default
 const container = document.getElementById('container')
 
 function renderComponent(component) {
@@ -18,9 +19,13 @@ function renderComponent(component) {
 }
 
 function render(location) {
-  router.resolve(routes, location)
-    .then(renderComponent)
-    .catch(error => router.resolve(routes, { ...location, error }).then(renderComponent))
+  console.log('location', location)
+
+  return renderComponent(<Scene />)
+
+  // router.resolve(routes, location)
+  //   .then(renderComponent)
+  //   .catch(error => router.resolve(routes, { ...location, error }).then(renderComponent))
 }
 
 history.listen(render)
@@ -28,9 +33,11 @@ render(history.location)
 
 FastClick.attach(document.body)
 
+/*
 if (module.hot) {
   module.hot.accept('./scenes.json', () => {
     routes = require('./scenes.json').default
     render(history.location)
   })
 }
+*/
