@@ -1,19 +1,27 @@
 import React, { PropTypes } from 'react'
-import { Layout } from 'Components'
+import { Layout, Null } from 'Components'
 
 
 class Cut extends React.Component {
   static propTypes = {
-    Textbox: PropTypes.element
+    textbox: PropTypes.string
+  }
+
+  constructor(props) {
+    super(props)
+
+    this.elements = {
+      Textbox: (require('Components')[props.textbox] || Null)
+    }
   }
 
   render() {
-    const { Textbox } = this.props
+    const { Textbox } = this.elements
 
     return (
       <Layout>
         <h1>SOMETEXT</h1>
-        <Textbox />
+        <Textbox name="Schoolgirl B" text="Sample text"/>
       </Layout>
     )
   }

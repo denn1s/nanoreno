@@ -9,8 +9,15 @@ module.exports = function routesLoader(source) {
 
   const output = ['[\n']
   const routes = JSON.parse(source)
+  let cutNum = 0
 
-  for (const route of routes) {
+  for (const scene of routes) {
+    const route = {
+      path: scene.path ? scene.path : ('/' + (cutNum ? cutNum : '')),
+      page: scene.page ? scene.page : './Cut',
+      chunk: scene.chunk ? scene.chunk : 'main',
+      data: scene
+    }
     const keys = []
     const pattern = toRegExp(route.path, keys)
     const require = route.chunk && route.chunk === 'main' ?
@@ -37,6 +44,6 @@ module.exports = function routesLoader(source) {
   }
 
   output.push(']')
-
+  cutNum += 1
   return `export default ${output.join('')};`
 }

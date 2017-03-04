@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react'
 import CSSModules from 'react-css-modules'
-import styles from './NormalTextbox.scss'
+import styles from './Textbox.scss'
 
 
 class NormalTextbox extends React.Component {
@@ -13,7 +13,7 @@ class NormalTextbox extends React.Component {
     const { name, text } = this.props
 
     return (
-      <section styleName="text-box">
+      <section styleName="normal-textbox">
         <h1 styleName="name">{name}</h1>
         <div styleName="text">{text}</div>
       </section>

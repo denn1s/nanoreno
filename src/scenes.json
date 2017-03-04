@@ -1,7 +1,5 @@
 [
   {
-    "path": "/",
-    "page": "./Cut",
-    "chunk": "main"
+    "textbox": "NormalTextbox"
   }
 ]

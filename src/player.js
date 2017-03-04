@@ -40,33 +40,16 @@ function matchURI(route, path) {
 // instantiate and return a React component
 function resolve(routes, context) {
   for (const route of routes) {
-    console.log('route', route, context.pathname)
     const params = matchURI(route, context.pathname)
 
     if (!params) {
       continue
     }
 
-    /*
     if (route.data) {
-      const keys = Object.keys(route.data)
-      return Promise.all([
-        route.load(),
-        ...keys.map(key => {
-          const query = route.data[key]
-          const method = query.substring(0, query.indexOf(' ')) // GET
-          let url = query.substr(query.indexOf(' ') + 1)      // /api/tasks/$id
-          Object.keys(params).forEach((k) => {
-            url = url.replace(`${k}`, params[k])
-          })
-          return fetch(url, { method }).then(resp => resp.json())
-        }),
-      ]).then(([Page, ...data]) => {
-        const props = keys.reduce((result, key, i) => ({ ...result, [key]: data[i] }), {})
-        return <Page route={{ ...route, params }} error={context.error} {...props} />
-      })
+      const props = route.data
+      return route.load().then(Page => <Page route={{ ...route, params }} error={context.error} {...props} />)
     }
-    */
     return route.load().then(Page => <Page route={{ ...route, params }} error={context.error} />)
   }
 
