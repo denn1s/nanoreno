@@ -1,6 +1,7 @@
 import React, { PropTypes } from 'react'
-import cx from 'classnames'
-// import TextBox from '../TextBox'
+import CSSModules from 'react-css-modules'
+import styles from './Layout.scss'
+
 
 class Layout extends React.Component {
   static propTypes = {
@@ -17,11 +18,11 @@ class Layout extends React.Component {
 
   render() {
     return (
-      <main ref={node => (this.root = node)}>
-        <div {...this.props} className={this.props.className} />
+      <main ref={node => (this.root = node)} styleName="root">
+        <article {...this.props} className={this.props.className} />
       </main>
     )
   }
 }
 
-export default Layout
+export default CSSModules(Layout, styles)

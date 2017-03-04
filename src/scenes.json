@@ -1,7 +1,7 @@
 [
   {
     "path": "/",
-    "page": "./home",
+    "page": "./Cut",
     "chunk": "main"
   }
 ]

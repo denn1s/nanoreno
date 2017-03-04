@@ -47,10 +47,8 @@ function resolve(routes, context) {
       continue
     }
 
-    // Check if the route has any data requirements, for example:
-    // { path: '/tasks/:id', data: { task: 'GET /api/tasks/$id' }, page: './pages/task' }
+    /*
     if (route.data) {
-      // Load page component and all required data in parallel
       const keys = Object.keys(route.data)
       return Promise.all([
         route.load(),
@@ -58,7 +56,6 @@ function resolve(routes, context) {
           const query = route.data[key]
           const method = query.substring(0, query.indexOf(' ')) // GET
           let url = query.substr(query.indexOf(' ') + 1)      // /api/tasks/$id
-          // TODO: Optimize
           Object.keys(params).forEach((k) => {
             url = url.replace(`${k}`, params[k])
           })
@@ -69,6 +66,7 @@ function resolve(routes, context) {
         return <Page route={{ ...route, params }} error={context.error} {...props} />
       })
     }
+    */
     return route.load().then(Page => <Page route={{ ...route, params }} error={context.error} />)
   }
 

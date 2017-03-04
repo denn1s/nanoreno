@@ -45,7 +45,12 @@ const config = {
     cached: isVerbose,
     cachedAssets: isVerbose,
   },
-
+  resolve: {
+    alias: {
+      Components: path.resolve(__dirname, '../src/components/'),
+    },
+    extensions: ['.json', '.js', '.jsx']
+  },
   plugins: [
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': isDebug ? '"development"' : '"production"',
@@ -67,8 +72,7 @@ const config = {
       {
         test: /\.jsx?$/,
         include: [
-          path.resolve(__dirname, '../src'),
-          path.resolve(__dirname, '../components'),
+          path.resolve(__dirname, '../src')
         ],
         loader: 'babel-loader',
         options: babelConfig,
@@ -104,14 +108,14 @@ const config = {
       {
         test: /\.json$/,
         exclude: [
-          path.resolve(__dirname, '../src/routes.json'),
+          path.resolve(__dirname, '../src/scenes.json'),
         ],
         loader: 'json-loader',
       },
       {
         test: /\.json$/,
         include: [
-          path.resolve(__dirname, '../src/routes.json'),
+          path.resolve(__dirname, '../src/scenes.json'),
         ],
         use: [
           {
