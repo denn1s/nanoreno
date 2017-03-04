@@ -11,6 +11,7 @@ const babelConfig = Object.assign({}, pkg.babel, {
   babelrc: false,
   cacheDirectory: useHMR,
   presets: pkg.babel.presets.map(x => x === 'latest' ? ['latest', { es2015: { modules: false } }] : x),
+  plugins: ['transform-decorators-legacy']
 })
 
 // Webpack configuration (main.js => public/dist/main.{hash}.js)

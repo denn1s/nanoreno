@@ -3,7 +3,8 @@ import { createStore } from 'redux'
 
 const initialState = {
   configs: require('Assets/configs.json'),
-  cuts: require('Assets/cuts.json')
+  cuts: require('Assets/cuts.json'),
+  characters: require('Assets/characters.json')
 }
 
 

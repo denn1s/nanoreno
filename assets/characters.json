@@ -1,0 +1,15 @@
+{
+  "SchoolgirlA": {
+    "name": "Schoolgirl A",
+    "emotions": {
+      "sad": {
+        "sprite": "sad.svg",
+        "background": "blue"
+      },
+      "happy": {
+        "sprite": "happy.svg",
+        "background": "yellow"
+      }
+    }
+  }
+}
