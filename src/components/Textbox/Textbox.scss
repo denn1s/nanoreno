@@ -1,11 +1,24 @@
 .normal-textbox {
-  background: #FFF;
-  padding: 60px;
+  height: 20vh;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+  width: 100%;
+  color: #FFF;
 
   .name {
-    color: blue;
+    font-family: 'Raleway-Regular';
+    position: absolute;
+    left: 60px;
+    top: 5px;
+    font-size: 2em;
   }
   .text {
-    color: purple;
+    font-family: 'Vollkorn-Regular';
+    position: absolute;
+    top: 80px;
+    left: 60px;
+    font-size: 1.5em;
   }
 }

@@ -1,3 +1,5 @@
 {
-  "textSpeed": 1000
+  "textSpeed": 1000,
+  "mainBackgroundColor": "#181914",
+  "mainBackgroundOpacity": 0.2
 }

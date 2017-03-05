@@ -1,9 +1,14 @@
 import React, { PropTypes } from 'react'
+import { connect } from 'react-redux'
 import CSSModules from 'react-css-modules'
 import styles from './Background.scss'
 
 
-class FullscreenBackground extends React.Component {
+@connect(
+  state => ({ configs: state.configs})
+)
+@CSSModules(styles)
+export default class FullscreenBackground extends React.Component {
   static propTypes = {
     kind: PropTypes.string.isRequired,
     number: PropTypes.string.isRequired,
@@ -21,9 +26,9 @@ class FullscreenBackground extends React.Component {
 
   render() {
     return (
-      <img styleName="fullscreen-background" src={this.image} />
+      <div styleName="fullscreen-background" style={{ backgroundColor: this.props.configs.mainBackgroundColor }}>
+        <div styleName="image" style={{ backgroundImage: `url(${this.image})`, opacity: this.props.configs.mainBackgroundOpacity }}/>
+      </div>
     )
   }
 }
-
-export default CSSModules(FullscreenBackground, styles)
