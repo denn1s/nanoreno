@@ -50,6 +50,7 @@ const config = {
     alias: {
       Components: path.resolve(__dirname, '../src/components/'),
       Assets: path.resolve(__dirname, '../assets/'),
+      Actions: path.resolve(__dirname, '../src/store'),
     },
     extensions: ['.json', '.js', '.jsx']
   },

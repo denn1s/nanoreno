@@ -1,4 +1,13 @@
 .strip {
   position: absolute;
   z-index: 5;
+  width: 100%;
+}
+
+.trapezoid {
+  border-bottom: 100px solid red;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  height: 0;
+  width: 100px;
 }

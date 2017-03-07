@@ -3,10 +3,23 @@ import CSSModules from 'react-css-modules'
 import styles from './Textbox.scss'
 
 
-class NormalTextbox extends React.Component {
+@CSSModules(styles)
+export default class NormalTextbox extends React.Component {
   static propTypes = {
     name: PropTypes.string.isRequired,
-    text: PropTypes.string.isRequired
+    text: PropTypes.string.isRequired,
+    onNext: PropTypes.func.isRequired
+  }
+
+  constructor(props) {
+    super(props)
+
+    this.$handleClick = this.handleClick.bind(this)
+  }
+
+  handleClick(event) {
+    event.preventDefault()
+    this.props.onNext()
   }
 
   render() {
@@ -16,9 +29,8 @@ class NormalTextbox extends React.Component {
       <section styleName="normal-textbox">
         <h1 styleName="name">{name}</h1>
         <div styleName="text">{text}</div>
+        <a href="#" onClick={this.$handleClick}>NEXT</a>
       </section>
     )
   }
 }
-
-export default CSSModules(NormalTextbox, styles)

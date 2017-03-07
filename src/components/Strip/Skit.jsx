@@ -1,9 +1,13 @@
 import React, { PropTypes } from 'react'
 import { connect } from 'react-redux'
+import CSSModules from 'react-css-modules'
+import styles from './Strip.scss'
+
 
 @connect(
   state => ({ characters: state.characters })
 )
+@CSSModules(styles)
 export default class Skit extends React.Component {
   constructor(props) {
     super(props)
@@ -24,6 +28,7 @@ export default class Skit extends React.Component {
       <div>
         <h1>{this.character.name}</h1>
         <h2>{this.emotion.background}</h2>
+        <div styleName="trapezoid" />
       </div>
     )
   }
