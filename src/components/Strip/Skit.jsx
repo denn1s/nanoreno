@@ -1,5 +1,6 @@
 import React, { PropTypes } from 'react'
 import { connect } from 'react-redux'
+import convert from 'color-convert'
 import CSSModules from 'react-css-modules'
 import styles from './Strip.scss'
 
@@ -21,14 +22,14 @@ export default class Skit extends React.Component {
     if (!this.emotion) {
       console.error(character, 'cannot feel', emotion)
     }
+    const color = convert.hex.rgb(this.emotion.color || '#FFFFFF')
+    this.background = `linear-gradient(to right, rgba(${color[0]},${color[1]},${color[2]},0) 0%,rgba(${color[0]},${color[1]},${color[2]},0.5) 25%,rgba(${color[0]},${color[1]},${color[2]},0.5) 75%,rgba(${color[0]},${color[1]},${color[2]},0) 100%)`
   }
 
   render() {
     return (
-      <div>
-        <h1>{this.character.name}</h1>
-        <h2>{this.emotion.background}</h2>
-        <div styleName="trapezoid" />
+      <div styleName="skit">
+        <div styleName="trapezoid" style={{background: this.background}} />
       </div>
     )
   }

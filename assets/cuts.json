@@ -2,17 +2,5 @@
   {
     "skit": "SchoolgirlA sad",
     "text": "Dialog number one"
-  },
-  {
-    "skit": "SchoolgirlA happy",
-    "text": "Dialog number two"
-  },
-  {
-    "skit": "SchoolgirlB worry",
-    "text": "Dialog number three"
-  },
-  {
-    "skit": "SchoolgirlB punchline",
-    "text": "punchline"
   }
 ]

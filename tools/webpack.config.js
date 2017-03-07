@@ -151,6 +151,10 @@ const config = {
         },
       },
       {
+        test: /\.(svg)$/,
+        loader: 'raw-loader'
+      },
+      {
         test: /\.(eot|ttf|wav|mp3)$/,
         loader: 'file-loader',
       },
