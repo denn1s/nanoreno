@@ -5,33 +5,8 @@
     "direction": "right"
   },
   {
-    "skit": "Protag neutral",
-    "text": "Coming to confess your love I see",
-    "direction": "left"
-  },
-  {
-    "skit": "SchoolgirlA neutral",
-    "text": "Uhm... no. Why would I?",
-    "direction": "right"
-  },
-  {
-    "skit": "Protag neutral",
-    "text": "Duh! Because I'm the protagonist and you're just a dumb haremette",
-    "direction": "left"
-  },
-  {
     "skit": "SchoolgirlA mad",
-    "text": "Is that how you see me?",
-    "direction": "right"
-  },
-  {
-    "skit": "SchoolgirlA madder",
-    "text": "As just one more girl from the bunch?",
-    "direction": "right"
-  },
-  {
-    "skit": "SchoolgirlA maddest",
-    "text": "Even madder dialogue!",
+    "text": "still from right",
     "direction": "right"
   }
 ]

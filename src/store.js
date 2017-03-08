@@ -8,8 +8,8 @@ const initialState = {
   spotlight: [   // TODO, make this depend on url to debug
     null,
     null,
-    0,
-    1
+    null,
+    0
   ],
   cut: require('Assets/cuts.json')[0]
 }
