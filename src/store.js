@@ -10,14 +10,17 @@ const initialState = {
     null,
     0,
     1
-  ]
+  ],
+  cut: require('Assets/cuts.json')[0]
 }
 
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
-     case 'UPDATE_SPOTLIGHT':
+    case 'UPDATE_SPOTLIGHT':
       return { ...state, spotlight: action.spotlight }
+    case 'UPDATE_CUT':
+      return { ...state, cut: action.cut }
     default:
       return state
   }
@@ -34,5 +37,12 @@ export function updateSpotlight(newSpotlight) {
   return {
     type: 'UPDATE_SPOTLIGHT',
     spotlight: newSpotlight
+  }
+}
+
+export function updateCut(cut) {
+  return {
+    type: 'UPDATE_CUT',
+    cut: cut
   }
 }

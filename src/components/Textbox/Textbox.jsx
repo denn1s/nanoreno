@@ -1,12 +1,12 @@
 import React, { PropTypes } from 'react'
 import { connect } from 'react-redux'
-import { updateSpotlight } from 'Actions'
+import { updateSpotlight, updateCut } from 'Actions'
 import NormalTextbox from './NormalTextbox'
 
 
 @connect(
-  state => ({ cuts: state.cuts, spotlight: state.spotlight }),
-  { updateSpotlight }
+  state => ({ cuts: state.cuts, spotlight: state.spotlight, cut: state.cut, characters: state.characters }),
+  { updateSpotlight, updateCut }
 )
 export default class Textbox extends React.Component {
   constructor(props) {
@@ -24,14 +24,19 @@ export default class Textbox extends React.Component {
       const rising = this.props.spotlight[3] ? this.props.spotlight[3] + 1 : null // todo, handle trees, using next from cuts
       newSpotlight[3] = rising < this.props.cuts.length ? rising : null
       this.props.updateSpotlight(newSpotlight)
+      this.props.updateCut(this.props.cuts[newSpotlight[2]])
     }
   }
 
   render() {
     // TODO: get text from state and also textbox kind
 
+    const { skit, text } = this.props.cut
+    const [ character, emotion ] = skit.split(' ')
+    const char = this.props.characters[character]
+
     return (
-      <NormalTextbox text="navigation refactor" name="Schoolgirl A" onNext={this.$handleRotate} />
+      <NormalTextbox text={text} name={char.name} onNext={this.$handleRotate} />
     )
   }
 }

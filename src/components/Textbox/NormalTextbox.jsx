@@ -29,7 +29,7 @@ export default class NormalTextbox extends React.Component {
       <section styleName="normal-textbox">
         <h1 styleName="name">{name}</h1>
         <div styleName="text">{text}</div>
-        <a href="#" onClick={this.$handleClick}>NEXT</a>
+        <a href="#" onClick={this.$handleClick} style={{ position: 'absolute', right: '30px', bottom: '30px', fontSize: '30px', fontWeight: 'bold'}}>NEXT</a>
       </section>
     )
   }

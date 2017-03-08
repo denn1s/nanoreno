@@ -2,26 +2,36 @@
   "SchoolgirlA": {
     "name": "Schoolgirl A",
     "emotions": {
+      "neutral": {
+        "sprite": "neutral.svg"
+      },
       "sad": {
-        "sprite": "sad.svg",
+        "sprite": "neutral.svg",
         "color": "#25A6E0"
       },
-      "happy": {
-        "sprite": "happy.svg",
-        "color": "#FFD082"
+      "mad": {
+        "sprite": "neutral.svg",
+        "color": "#B6240B"
+      },
+      "madder": {
+        "sprite": "neutral.svg",
+        "color": "#B6240B",
+        "width": "30vw",
+        "pos": "10vh"
+      },
+      "maddest": {
+        "sprite": "neutral.svg",
+        "color": "#B6240B",
+        "width": "40vw",
+        "pos": "0vh"
       }
     }
   },
-  "SchoolgirlB": {
-    "name": "Schoolgirl B",
+  "Protag": {
+    "name": "Generic protagonist",
     "emotions": {
-      "worry": {
-        "sprite": "worry.svg",
-        "color": "#B981DC"
-      },
-      "angry": {
-        "sprite": "happy.svg",
-        "color": "#B6240B"
+      "neutral": {
+        "sprite": "neutral.svg"
       }
     }
   }
