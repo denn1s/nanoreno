@@ -3,27 +3,32 @@
     "name": "Schoolgirl A",
     "emotions": {
       "neutral": {
-        "sprite": "neutral.svg"
+        "sprite": "neutral.svg",
+        "motion": "gentle"
       },
       "sad": {
         "sprite": "neutral.svg",
-        "color": "#25A6E0"
+        "color": "#25A6E0",
+        "motion": "wooble"
       },
       "mad": {
         "sprite": "neutral.svg",
-        "color": "#B6240B"
+        "color": "#B6240B",
+        "motion": "mad"
       },
       "madder": {
         "sprite": "neutral.svg",
         "color": "#B6240B",
         "width": "30vw",
-        "pos": "10vh"
+        "pos": "10vh",
+        "motion": "mad"
       },
       "maddest": {
         "sprite": "neutral.svg",
         "color": "#B6240B",
         "width": "40vw",
-        "pos": "0vh"
+        "pos": "0vh",
+        "motion": "mad"
       }
     }
   },

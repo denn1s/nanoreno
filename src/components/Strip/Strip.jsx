@@ -1,9 +1,18 @@
 import React, { PropTypes } from 'react'
 import { connect } from 'react-redux'
-import { Motion, spring, presets, StaggeredMotion } from 'react-motion';
+import { Motion, spring, StaggeredMotion } from 'react-motion';
 import CSSModules from 'react-css-modules'
 import Skit from './Skit'
 import styles from './Strip.scss'
+
+
+const presets = {
+  normal: {stiffness: 170, damping: 26},
+  gentle: {stiffness: 120, damping: 14},
+  wobbly: {stiffness: 180, damping: 12},
+  stiff: {stiffness: 210, damping: 20},
+  mad: {stiffness: 300, damping: 50},
+}
 
 
 @connect(
@@ -39,6 +48,7 @@ export default class Strip extends React.Component {
       console.error(character, 'cannot feel', emotion)
       throw 'Error'
     }
+    cut.key = this.props.spotlight[num]
     return cut
   }
 
@@ -111,6 +121,8 @@ export default class Strip extends React.Component {
       this.getCutFromSpotlight(3)
     ]
     const springness = spotlight[3] ? presets[spotlight[3].emotion.motion] : null  // everyone moves as emotion 3 mandates
+    console.log('s3 em', spotlight[3].emotion)
+    console.log('springness', springness)
     const spotlightOrigin = []
     const spotlightTarget = []
 
@@ -126,29 +138,18 @@ export default class Strip extends React.Component {
       }
     }
 
-    console.log('spotlight', spotlight)
-    console.log('spotlightOrigin', spotlightOrigin)
-    console.log('spotlightTarget', spotlightTarget)
-
     return (
-      <div styleName="strip">
-        { ( spotlight[0] && spotlightTarget[0].x ) && <Skit cut={spotlight[0]} style={{ x: spotlightTarget[0].x.val, y: spotlightTarget[0].y.val }} /> }
-        { ( spotlight[1] && spotlightTarget[1].x ) && <Skit cut={spotlight[1]} style={{ x: spotlightTarget[1].x.val, y: spotlightTarget[1].y.val }} /> }
-        { ( spotlight[2] && spotlightTarget[2].x ) && <Skit cut={spotlight[2]} style={{ x: spotlightTarget[2].x.val, y: spotlightTarget[2].y.val }} /> }
-        { ( spotlight[3] && spotlightTarget[3].x ) && <Skit cut={spotlight[3]} style={{ x: spotlightTarget[3].x.val, y: spotlightTarget[3].y.val }} /> }
-
-        { /*
-        <Motion defaultStyle={{interpolation: 0}} style={{interpolation: spring(100)}}>
-                  {interpolatingStyle =>
-                    <div style={{ zIndex: 1000, position: 'absolute', color: '#FFF' }}>
-                      { spotlight[0] && <Skit cut={spotlight[0]} style={spotlightOrigin[0]} /> }
-                      { spotlight[1] && <Skit cut={spotlight[1]} style={spotlightOrigin[1]} /> }
-                      { spotlight[2] && <Skit cut={spotlight[2]} style={spotlightOrigin[2]} /> }
-                      { spotlight[3] && <Skit cut={spotlight[3]} style={spotlightOrigin[3]} /> }
-                    </div>
-                  }
-        </Motion>
-        */ }
+      <div styleName='strip'>
+        {spotlight.map((si, index) => {
+          if (!si || !spotlightTarget[index].x) {
+            return null
+          }
+          return (
+            <Motion key={si.key} defaultStyle={spotlightOrigin[index]} style={spotlightTarget[index]}>
+              { style => <Skit key={si.key} cut={si} style={style} /> }
+            </Motion>
+          )
+        })}
       </div>
     )
   }

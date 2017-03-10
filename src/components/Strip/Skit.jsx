@@ -22,8 +22,6 @@ export default class Skit extends React.Component {
     const spriteWidth = this.props.cut.emotion.width || '20vw'
     const spritePos = this.props.cut.emotion.pos || '20vh'
 
-    console.log('rendering', this.props.cut.skit, 'pos', this.props.style.x, this.props.style.y)
-
     return (
       <div styleName="skit" style={{ left: `${this.props.style.x}vw`, top: `${this.props.style.y}vh` }}>
         <div styleName="sprite" style={{ top: spritePos, marginLeft: `-${spriteWidth}` }}>
