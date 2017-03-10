@@ -5,7 +5,47 @@
     "direction": "right"
   },
   {
+    "skit": "Protag neutral",
+    "text": "now from left",
+    "direction": "left"
+  },
+  {
     "skit": "SchoolgirlA mad",
+    "text": "still from right",
+    "direction": "right"
+  },
+  {
+    "skit": "SchoolgirlA madder",
+    "text": "still from right",
+    "direction": "right"
+  },
+  {
+    "skit": "SchoolgirlA maddest",
+    "text": "still from right",
+    "direction": "right"
+  },
+  {
+    "skit": "SchoolgirlA sad",
+    "text": "still from right",
+    "direction": "right"
+  },
+  {
+    "skit": "SchoolgirlA sad",
+    "text": "still from right",
+    "direction": "right"
+  },
+  {
+    "skit": "SchoolgirlA sad",
+    "text": "still from right",
+    "direction": "right"
+  },
+  {
+    "skit": "SchoolgirlA sad",
+    "text": "still from right",
+    "direction": "right"
+  },
+  {
+    "skit": "SchoolgirlA sad",
     "text": "still from right",
     "direction": "right"
   }

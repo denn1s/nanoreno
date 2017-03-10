@@ -131,30 +131,25 @@ export default class Strip extends React.Component {
     console.log('spotlightTarget', spotlightTarget)
 
     return (
-      <StaggeredMotion
-                defaultStyles={spotlightOrigin}
-                styles={prevInterpolatedStyles => spotlightTarget}
-              >
-                {interpolatingStyles =>
-                  <div style={{ zIndex: 1000, position: 'absolute', color: '#FFF' }}>
-                    {interpolatingStyles.map((style, i) => {
-                      return <div key={i}>style {JSON.stringify(style)} i {i} </div>;
-                    })}
-                  </div>
-                }
-      </StaggeredMotion>
-    )
-    /*
+      <div styleName="strip">
+        { ( spotlight[0] && spotlightTarget[0].x ) && <Skit cut={spotlight[0]} style={{ x: spotlightTarget[0].x.val, y: spotlightTarget[0].y.val }} /> }
+        { ( spotlight[1] && spotlightTarget[1].x ) && <Skit cut={spotlight[1]} style={{ x: spotlightTarget[1].x.val, y: spotlightTarget[1].y.val }} /> }
+        { ( spotlight[2] && spotlightTarget[2].x ) && <Skit cut={spotlight[2]} style={{ x: spotlightTarget[2].x.val, y: spotlightTarget[2].y.val }} /> }
+        { ( spotlight[3] && spotlightTarget[3].x ) && <Skit cut={spotlight[3]} style={{ x: spotlightTarget[3].x.val, y: spotlightTarget[3].y.val }} /> }
 
-
-    return (
-      <div styleName='strip'>
-        { spotlight0motion }
-        { spotlight1motion }
-        { spotlight2motion }
-        { spotlight3motion }
+        { /*
+        <Motion defaultStyle={{interpolation: 0}} style={{interpolation: spring(100)}}>
+                  {interpolatingStyle =>
+                    <div style={{ zIndex: 1000, position: 'absolute', color: '#FFF' }}>
+                      { spotlight[0] && <Skit cut={spotlight[0]} style={spotlightOrigin[0]} /> }
+                      { spotlight[1] && <Skit cut={spotlight[1]} style={spotlightOrigin[1]} /> }
+                      { spotlight[2] && <Skit cut={spotlight[2]} style={spotlightOrigin[2]} /> }
+                      { spotlight[3] && <Skit cut={spotlight[3]} style={spotlightOrigin[3]} /> }
+                    </div>
+                  }
+        </Motion>
+        */ }
       </div>
     )
-    */
   }
 }
