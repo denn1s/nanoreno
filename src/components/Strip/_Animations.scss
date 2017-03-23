@@ -1,0 +1,16 @@
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+.example {
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 2s;
+}
+
+.none {
+  background: black;
+}

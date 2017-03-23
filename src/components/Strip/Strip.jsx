@@ -120,8 +120,6 @@ export default class Strip extends React.Component {
       this.getCutFromSpotlight(3)
     ]
     const springness = spotlight[3] ? presets[spotlight[3].emotion.motion] : null  // everyone moves as emotion 3 mandates
-    console.log('s3 em', spotlight[3].emotion)
-    console.log('springness', springness)
     const spotlightOrigin = []
     const spotlightTarget = []
 

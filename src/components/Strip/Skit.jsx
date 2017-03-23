@@ -9,7 +9,7 @@ import styles from './Strip.scss'
 @connect(
   state => ({ characters: state.characters })
 )
-@CSSModules(styles)
+@CSSModules(styles, {allowMultiple: true})
 export default class Skit extends React.Component {
   getBackground() {
     const color = convert.hex.rgb(this.props.cut.emotion.color || '#FFFFFF')
@@ -21,10 +21,11 @@ export default class Skit extends React.Component {
     const svg = require(`Assets/characters/${this.props.cut.id}/${this.props.cut.emotion.sprite}`)
     const spriteWidth = this.props.cut.emotion.width || '20vw'
     const spritePos = this.props.cut.emotion.pos || '20vh'
+    const animation = this.props.cut.animation || 'none'
 
     return (
       <div styleName="skit" style={{ left: `${this.props.style.x}vw`, top: `${this.props.style.y}vh` }}>
-        <div styleName="sprite" style={{ top: spritePos, marginLeft: `-${spriteWidth}` }}>
+        <div styleName={`sprite ${animation}`} style={{ top: spritePos, marginLeft: `-${spriteWidth}` }}>
           <Svg svg={svg} width={spriteWidth} height="auto" />
         </div>
         <div styleName="trapezoid" style={{background: background}} />
