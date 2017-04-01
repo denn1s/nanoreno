@@ -10,9 +10,10 @@ import styles from './Background.scss'
 @CSSModules(styles)
 export default class FullscreenBackground extends React.Component {
   static propTypes = {
-    kind: PropTypes.string.isRequired,
-    number: PropTypes.string.isRequired,
-    ext: PropTypes.string
+    kind: PropTypes.string,
+    number: PropTypes.string,
+    ext: PropTypes.string,
+    filename: PropTypes.string
   }
 
   static defaultProps = {
@@ -21,7 +22,11 @@ export default class FullscreenBackground extends React.Component {
 
   constructor(props) {
     super(props)
-    this.image = require(`Assets/backgrounds/${props.kind}/${props.number}.${props.ext}`)
+    if (props.filename) {
+      this.image = require(`Assets/backgrounds/${props.filename}`)
+    } else {
+      this.image = require(`Assets/backgrounds/${props.kind}/${props.number}.${props.ext}`)
+    }
   }
 
   render() {

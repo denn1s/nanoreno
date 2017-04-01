@@ -1,13 +1,16 @@
 import React, { PropTypes } from 'react'
+import { connect } from 'react-redux'
 import FullscreenBackground from './FullscreenBackground'
 
 
+@connect(
+  state => ({ cuts: state.cuts, spotlight: state.spotlight })
+)
 export default class Background extends React.Component {
   render() {
-    // TODO: choose background from state, pass props to background from state
 
     return (
-      <FullscreenBackground kind="forest" number="1" />
+      <FullscreenBackground filename="atCounter.png" />
     )
   }
 }

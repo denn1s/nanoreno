@@ -1,43 +1,185 @@
 {
-  "SchoolgirlA": {
-    "name": "Schoolgirl A",
-    "emotions": {
-      "neutral": {
-        "sprite": "neutral.svg",
-        "motion": "gentle"
-      },
-      "sad": {
-        "sprite": "neutral.svg",
-        "color": "#25A6E0",
-        "motion": "wooble"
-      },
-      "mad": {
-        "sprite": "neutral.svg",
-        "color": "#B6240B",
-        "motion": "mad"
-      },
-      "madder": {
-        "sprite": "neutral.svg",
-        "color": "#B6240B",
-        "width": "30vw",
-        "pos": "10vh",
-        "motion": "mad"
-      },
-      "maddest": {
-        "sprite": "neutral.svg",
-        "color": "#B6240B",
-        "width": "40vw",
-        "pos": "0vh",
-        "motion": "mad"
-      }
+    "Me": {
+        "name": "Me",
+        "emotions": {
+            "undefined": {
+                "sprite": "undefined.svg",
+                "motion": "gentle"
+            },
+            "exhausted": {
+                "sprite": "exhausted.svg",
+                "color": "#25A6E0",
+                "motion": "wooble"
+            },
+            "happier": {
+                "sprite": "happier.svg",
+                "color": "#B6240B",
+                "motion": "mad"
+            },
+            "happy": {
+                "sprite": "happy.svg",
+                "color": "#B6240B",
+                "width": "30vw",
+                "pos": "10vh",
+                "motion": "mad"
+            },
+            "neutral": {
+                "sprite": "neutral.svg",
+                "color": "#B6240B",
+                "width": "40vw",
+                "pos": "0vh",
+                "motion": "mad"
+            },
+            "sad": {
+                "sprite": "sad.svg",
+                "color": "#B6240B",
+                "motion": "gentle"
+            },
+            "tire": {
+                "sprite": "tire.svg",
+                "color": "#B6240B",
+                "motion": "gentle"
+            },
+            "uncomfortable": {
+                "sprite": "uncomfortable.svg",
+                "color": "#B6240B",
+                "motion": "gentle"
+            },
+            "wacky": {
+                "sprite": "wacky.svg",
+                "color": "#B6240B",
+                "motion": "gentle"
+            },
+            "worry": {
+                "sprite": "worry.svg",
+                "color": "#B6240B",
+                "motion": "gentle"
+            }
+        }
+    },
+    "Alia": {
+        "name": "Alia",
+        "emotions": {
+            "happy": {
+                "sprite": "happy.svg",
+                "motion": "gentle"
+            },
+            "mad": {
+                "sprite": "mad.svg",
+                "color": "#25A6E0",
+                "motion": "wooble"
+            },
+            "madder": {
+                "sprite": "madder.svg",
+                "color": "#B6240B",
+                "motion": "mad"
+            },
+            "maddest": {
+                "sprite": "maddest.svg",
+                "color": "#B6240B",
+                "motion": "mad"
+            },
+            "tire": {
+                "sprite": "tire.svg",
+                "color": "#B6240B",
+                "motion": "mad"
+            },
+            "wacky": {
+                "sprite": "wacky.svg",
+                "color": "#B6240B",
+                "motion": "gentle"
+            },
+            "worry": {
+                "sprite": "worry.svg",
+                "color": "#B6240B",
+                "motion": "gentle"
+            }
+        }
+    },
+    "Katy": {
+        "name": "Katy",
+        "emotions": {
+            "undefined": {
+                "sprite": "undefined.svg",
+                "motion": "gentle"
+            },
+            "mad": {
+                "sprite": "mad.svg",
+                "color": "#25A6E0",
+                "motion": "wooble"
+            },
+            "madder": {
+                "sprite": "madder.svg",
+                "color": "#B6240B",
+                "motion": "mad"
+            },
+            "maddest": {
+                "sprite": "maddest.svg",
+                "color": "#B6240B",
+                "motion": "mad"
+            },
+            "neutral": {
+                "sprite": "neutral.svg",
+                "color": "#B6240B",
+                "motion": "mad"
+            },
+            "tire": {
+                "sprite": "tire.svg",
+                "color": "#B6240B",
+                "motion": "gentle"
+            }
+        }
+    },
+    "May": {
+        "name": "May",
+        "emotions": {
+            "happy": {
+                "sprite": "happy.svg",
+                "motion": "gentle"
+            },
+            "neutral": {
+                "sprite": "neutral.svg",
+                "color": "#25A6E0",
+                "motion": "wooble"
+            },
+            "worry": {
+                "sprite": "worry.svg",
+                "color": "#B6240B",
+                "motion": "mad"
+            }
+        }
+    },
+    "Policeman": {
+        "name": "Policeman",
+        "emotions": {
+            "undefined": {
+                "sprite": "undefined.svg",
+                "motion": "gentle"
+            },
+            "mad": {
+                "sprite": "mad.svg",
+                "color": "#25A6E0",
+                "motion": "wooble"
+            },
+            "neutral": {
+                "sprite": "neutral.svg",
+                "color": "#B6240B",
+                "motion": "mad"
+            },
+            "tire": {
+                "sprite": "tire.svg",
+                "color": "#B6240B",
+                "motion": "mad"
+            }
+        }
+    },
+    "Jokel": {
+        "name": "Jokel",
+        "emotions": {
+            "happy": {
+                "sprite": "happy.svg",
+                "motion": "gentle"
+            }
+        }
     }
-  },
-  "Protag": {
-    "name": "Generic protagonist",
-    "emotions": {
-      "neutral": {
-        "sprite": "neutral.svg"
-      }
-    }
-  }
 }
