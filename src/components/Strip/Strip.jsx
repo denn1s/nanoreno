@@ -15,7 +15,7 @@ const presets = {
 
 
 @connect(
-  state => ({ cuts: state.cuts, spotlight: state.spotlight, characters: state.characters })
+  state => ({ cut: state.cut, cuts: state.cuts, spotlight: state.spotlight, characters: state.characters })
 )
 @CSSModules(styles)
 export default class Strip extends React.Component {
@@ -27,7 +27,6 @@ export default class Strip extends React.Component {
       'left': -25
     }
   }
-
   getCutFromSpotlight(num) {
     const cut = this.props.cuts[this.props.spotlight[num]]
 
@@ -104,7 +103,6 @@ export default class Strip extends React.Component {
     }
   }
 
-
   render() {
     const initialStiffness = 400
     const initialDamping = 60
@@ -113,6 +111,8 @@ export default class Strip extends React.Component {
 
     console.log('cuts', this.props.cuts)
     console.log('spotlight', this.props.spotlight)
+    console.log('cut', this.props.cut)
+
     const spotlight = [
       this.getCutFromSpotlight(0),
       this.getCutFromSpotlight(1),

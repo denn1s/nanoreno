@@ -8,7 +8,7 @@ export default class NormalTextbox extends React.Component {
   static propTypes = {
     name: PropTypes.string.isRequired,
     text: PropTypes.string.isRequired,
-    onNext: PropTypes.func.isRequired
+    onNext: PropTypes.func
   }
 
   constructor(props) {
@@ -18,8 +18,10 @@ export default class NormalTextbox extends React.Component {
   }
 
   handleClick(event) {
-    event.preventDefault()
-    this.props.onNext()
+    if (this.props.onNext) {
+      event.preventDefault()
+      this.props.onNext()
+    }
   }
 
   render() {

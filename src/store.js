@@ -21,6 +21,18 @@ const reducer = (state = initialState, action) => {
       return { ...state, spotlight: action.spotlight }
     case 'UPDATE_CUT':
       return { ...state, cut: action.cut }
+    case 'ROTATE':
+      const newSpotlight = []
+      newSpotlight[0] = state.spotlight[1]
+      newSpotlight[1] = state.spotlight[2]
+      newSpotlight[2] = state.spotlight[3]
+      const rising = state.spotlight[3] || state.spotlight[3] === 0 ? state.spotlight[3] + 1 : null // todo, handle trees, using next from cuts
+      newSpotlight[3] = rising < state.cuts.length ? rising : null
+      return {
+        ...state,
+        spotlight: newSpotlight,
+        cut: state.cuts[newSpotlight[3]]
+      }
     default:
       return state
   }
@@ -44,5 +56,11 @@ export function updateCut(cut) {
   return {
     type: 'UPDATE_CUT',
     cut: cut
+  }
+}
+
+export function rotate() {
+  return {
+    type: 'ROTATE'
   }
 }
