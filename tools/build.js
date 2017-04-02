@@ -14,16 +14,6 @@ const html = task('html', () => {
   fs.writeFileSync('./public/index.html', output, 'utf8')
 })
 
-const sitemap = task('sitemap', () => {
-  const urls = require('../src/routes.json')
-    .filter(x => !x.path.includes(':'))
-    .map(x => ({ loc: x.path }))
-  const template = fs.readFileSync('./public/sitemap.ejs', 'utf8')
-  const render = ejs.compile(template, { filename: './public/sitemap.ejs' })
-  const output = render({ config, urls })
-  fs.writeFileSync('public/sitemap.xml', output, 'utf8')
-})
-
 const bundle = task('bundle', () => {
   const webpackConfig = require('./webpack.config')
   return new Promise((resolve, reject) => {
@@ -44,5 +34,4 @@ module.exports = task('build', () => {
   return Promise.resolve()
     .then(bundle)
     .then(html)
-    .then(sitemap)
 })
