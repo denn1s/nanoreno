@@ -15,7 +15,7 @@ export default class Background extends React.Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    if (nextProps.cut.background && nextProps.cut.background !== this.state.nowPlaying) {
+    if (nextProps.cut && nextProps.cut.background && nextProps.cut.background !== this.state.nowPlaying) {
       this.setState({
         ...this.state,
         nowPlaying: nextProps.cut.background || null

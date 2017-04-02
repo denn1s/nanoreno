@@ -8,14 +8,18 @@ import NormalTextbox from './NormalTextbox'
 )
 export default class Textbox extends React.Component {
   render() {
-    // TODO: get text from state and also textbox kind
+    // TODO: let someone else handle game over
+    if (this.props.cut) {
+      const { skit, text } = this.props.cut
+      const [ character, emotion ] = skit.split(' ')
+      const char = this.props.characters[character]
 
-    const { skit, text } = this.props.cut
-    const [ character, emotion ] = skit.split(' ')
-    const char = this.props.characters[character]
-
-    return (
-      <NormalTextbox text={text} name={char.name} />
-    )
+      return (
+        <NormalTextbox text={text} name={char.name} />
+      )
+    } else {
+      setTimeout(() => { window.location = '/credits' }, 3000)
+      return <div />
+    }
   }
 }

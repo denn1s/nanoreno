@@ -7,7 +7,7 @@ import styles from './main.scss'
 class Credits extends React.Component {
   render() {
     return (
-      <div>
+      <div styleName='credits'>
         THANK YOU FOR PLAYING
       </div>
     )

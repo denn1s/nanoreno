@@ -17,7 +17,7 @@ export default class Music extends React.Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    if (nextProps.cut.music && nextProps.cut.music !== this.state.nowPlaying) {
+    if (nextProps.cut && nextProps.cut.music && nextProps.cut.music !== this.state.nowPlaying) {
       this.setState({
         ...this.state,
         nowPlaying: nextProps.cut.music || null,
