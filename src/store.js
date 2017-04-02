@@ -11,12 +11,15 @@ const initialState = {
     null,
     0
   ],
-  cut: require('Assets/cuts.json')[0]
+  cut: require('Assets/cuts.json')[0],
+  pageOn: "start"
 }
 
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
+    case 'GAME': 
+      return { ...state, pageOn:"game"}
     case 'UPDATE_SPOTLIGHT':
       return { ...state, spotlight: action.spotlight }
     case 'UPDATE_CUT':
@@ -64,3 +67,5 @@ export function rotate() {
     type: 'ROTATE'
   }
 }
+
+

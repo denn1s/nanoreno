@@ -3,7 +3,7 @@
     "text": "I want some coffee",
     "direction": "right",
     "background": "nightsky.png",
-    "music": "vivaldi.mp3"
+    "music": "TheStart.ogg"
 }, {
     "skit": "Me undefined",
     "text": "ugghh, i don’t want to get up though",
@@ -102,7 +102,8 @@
     "skit": "Alia happy",
     "text": "Hi! How are you today?",
     "direction": "left",
-    "background": "atCounter.png"
+    "background": "atCounter.png",
+    "music": "FaceMeDown.ogg"
 }, {
     "skit": "Me happy",
     "text": "hello.. pretty, pretty good and you?",
@@ -334,7 +335,8 @@
 }, {
     "skit": "Alia mad",
     "text": "you're really fucked up huh",
-    "direction": "left"
+    "direction": "left",
+    "music": "DeathAwaits.ogg"
 }, {
     "skit": "Alia mad",
     "text": "saying those horrible things to May",
