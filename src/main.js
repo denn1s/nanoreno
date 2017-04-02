@@ -10,6 +10,8 @@ import store from './store'
 import history from './history'
 
 import Scene from './Scene'
+import Start from './Start'
+import Credits from './Credits'
 
 // let routes = require('./scenes.json').default
 const container = document.getElementById('container')
@@ -19,9 +21,13 @@ function renderComponent(component) {
 }
 
 function render(location) {
-  console.log('location', location)
-
-  return renderComponent(<Scene />)
+  console.log(location.pathname)
+  if (location.pathname === '/credits') {
+    return renderComponent(<Credits />)
+  } else if (location.pathname === '/game') {
+    return renderComponent(<Scene />)
+  }
+  return renderComponent(<Start />)
 
   // router.resolve(routes, location)
   //   .then(renderComponent)
