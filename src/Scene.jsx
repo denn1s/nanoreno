@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import { Layout,
          Textbox,
          Background,
+         Music,
          Strip,
          Null } from 'Components'
 
@@ -14,6 +15,7 @@ class Scene extends React.Component {
         <Strip />
         <Textbox />
         <Background />
+        <Music />
       </Layout>
     )
   }

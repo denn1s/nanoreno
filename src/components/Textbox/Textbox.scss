@@ -22,3 +22,13 @@
     font-size: 1.5em;
   }
 }
+
+.floaty {
+  animation: floating 3s linear infinite;
+  animation-direction: alternate;
+}
+
+@keyframes floating {
+  from {margin-bottom: 0;}
+  to {margin-bottom: 5px;}
+}

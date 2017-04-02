@@ -1,19 +1,24 @@
 [{
     "skit": "Me undefined",
     "text": "I want some coffee",
-    "direction": "right"
+    "direction": "right",
+    "background": "chair.png",
+    "music": "bach.mp3"
 }, {
     "skit": "Me undefined",
     "text": "ugghh, i don’t want to get up though",
-    "direction": "right"
+    "direction": "right",
+    "music": "vivaldi.mp3"
 }, {
     "skit": "Me tire",
     "text": "ahhhhhhhhhh",
-    "direction": "right"
+    "direction": "right",
+    "background": "InCar.png"
 }, {
     "skit": "Me undefined",
     "text": "crap, i'll get up i guess",
-    "direction": "right"
+    "direction": "right",
+    "background": "chari2.png"
 }, {
     "skit": "Me undefined",
     "text": "why does everything suck...",
@@ -328,7 +333,7 @@
     "direction": "left"
 }, {
     "skit": "Alia mad",
-    "text": "saying those horrible things to may",
+    "text": "saying those horrible things to May",
     "direction": "left"
 }, {
     "skit": "Alia madder",
@@ -384,11 +389,11 @@
     "direction": "right"
 }, {
     "skit": "Alia mad",
-    "text": "this piece of shit order a large, when May brought it here didn't want it",
+    "text": "this piece of shit order a large, when May brought it, he didn't want it",
     "direction": "left"
 }, {
     "skit": "Alia worry",
-    "text": "then he said some petty shit to May, she's crying in the back",
+    "text": "then he said some petty shit to May,now she's crying in the back",
     "direction": "left"
 }, {
     "skit": "Me tire",
@@ -396,11 +401,11 @@
     "direction": "right"
 }, {
     "skit": "Katy madder",
-    "text": "the hell is wrong with you",
+    "text": "the hell is wrong with you?!",
     "direction": "right"
 }, {
     "skit": "Me happy",
-    "text": "(yes please understand)",
+    "text": "(yes please explain to her i did nothing wrong)",
     "direction": "right"
 }, {
     "skit": "Katy mad",
@@ -412,7 +417,7 @@
     "direction": "right"
 }, {
     "skit": "Katy neutral",
-    "text": "fine i get that, but to treat some one like that",
+    "text": "fine i get it, but to treat some one like that",
     "direction": "left"
 }, {
     "skit": "Katy madder",
@@ -568,7 +573,7 @@
     "direction": "right"
 }, {
     "skit": "Me happy",
-    "text": "yea i'll just stay home an wait it out",
+    "text": "yea i'll just stay home and wait it out",
     "direction": "right"
 }, {
     "skit": "Me happier",
