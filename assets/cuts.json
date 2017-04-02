@@ -1,19 +1,24 @@
 [{
     "skit": "Me neutral",
     "text": "I want some coffee",
-    "direction": "right"
+    "direction": "right",
+    "background": "chair.png",
+    "music": "bach.mp3"
 }, {
     "skit": "Me undefined",
     "text": "ugghh, i don’t want to get up though",
-    "direction": "right"
+    "direction": "right",
+    "music": "vivaldi.mp3"
 }, {
     "skit": "Me tire",
     "text": "ahhhhhhhhhh",
-    "direction": "right"
+    "direction": "right",
+    "background": "InCar.png"
 }, {
     "skit": "Me undefined",
     "text": "crap, i'll get up i guess",
-    "direction": "right"
+    "direction": "right",
+    "background": "chari2.png"
 }, {
     "skit": "Me undefined",
     "text": "why does everything suck...",

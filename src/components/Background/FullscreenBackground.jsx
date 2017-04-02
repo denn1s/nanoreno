@@ -22,17 +22,30 @@ export default class FullscreenBackground extends React.Component {
 
   constructor(props) {
     super(props)
-    if (props.filename) {
-      this.image = require(`Assets/backgrounds/${props.filename}`)
-    } else {
-      this.image = require(`Assets/backgrounds/${props.kind}/${props.number}.${props.ext}`)
+    this.state = {
+      image: this.getImage(props)
     }
+  }
+
+  getImage(props) {
+    if (props.filename) {
+      return require(`Assets/backgrounds/${props.filename}`)
+    } else if (props.kind && props.number && props.ext) {
+      return require(`Assets/backgrounds/${props.kind}/${props.number}.${props.ext}`)
+    }
+  }
+
+  componentWillReceiveProps(nextProps) {
+    this.setState({
+      ...this.state,
+      image: this.getImage(nextProps)
+    })
   }
 
   render() {
     return (
       <div styleName="fullscreen-background" style={{ backgroundColor: this.props.configs.mainBackgroundColor }}>
-        <div styleName="image" style={{ backgroundImage: `url(${this.image})`, opacity: this.props.configs.mainBackgroundOpacity }}/>
+        { this.state.image && <div styleName="image" style={{ backgroundImage: `url(${this.state.image})`, opacity: this.props.configs.mainBackgroundOpacity }}/> }
       </div>
     )
   }
