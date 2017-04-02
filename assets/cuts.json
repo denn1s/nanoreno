@@ -2,23 +2,20 @@
     "skit": "Me neutral",
     "text": "I want some coffee",
     "direction": "right",
-    "background": "chair.png",
-    "music": "bach.mp3"
+    "background": "nightsky.png",
+    "music": "vivaldi.mp3"
 }, {
     "skit": "Me undefined",
     "text": "ugghh, i don’t want to get up though",
-    "direction": "right",
-    "music": "vivaldi.mp3"
+    "direction": "right"
 }, {
     "skit": "Me tire",
     "text": "ahhhhhhhhhh",
-    "direction": "right",
-    "background": "InCar.png"
+    "direction": "right"
 }, {
     "skit": "Me undefined",
     "text": "crap, i'll get up i guess",
-    "direction": "right",
-    "background": "chari2.png"
+    "direction": "right"
 }, {
     "skit": "Me undefined",
     "text": "why does everything suck...",
@@ -65,12 +62,14 @@
     "direction": "right"
 }, {
     "skit": "Me neutral",
-    "text": "ok, I'm heading out no more waiting",
+    "text": "ok, I'm heading out, no more waiting",
     "direction": "right"
 }, {
     "skit": "Me neutral",
     "text": "now i could go to the usual store...",
-    "direction": "right"
+    "direction": "right",
+    "background": "InCar.png"
+    
 }, {
     "skit": "Me neutral",
     "text": "but there might be too many people there",
@@ -102,7 +101,8 @@
 }, {
     "skit": "Alia happy",
     "text": "Hi! How are you today?",
-    "direction": "left"
+    "direction": "left",
+    "background": "atCounter.png"
 }, {
     "skit": "Me happy",
     "text": "hello.. pretty, pretty good and you?",
@@ -270,11 +270,13 @@
 }, {
     "skit": "Me tire",
     "text": "(that was so draining)",
-    "direction": "right"
+    "direction": "right",
+    "background": "chair.png"
 }, {
     "skit": "May happy",
     "text": "Hello",
-    "direction": "left"
+    "direction": "left",
+    "background": "chari2.png"
 }, {
     "skit": "Me happy",
     "text": "hi...",
@@ -310,7 +312,8 @@
 }, {
     "skit": "Me uncomfortable",
     "text": "(what the heck was that about)",
-    "direction": "right"
+    "direction": "right",
+    "background": "chair.png"
 }, {
     "skit": "Me uncomfortable",
     "text": "(she looked really angry)",
@@ -322,7 +325,8 @@
 }, {
     "skit": "Alia mad",
     "text": "hey jerk, here's your large coffee",
-    "direction": "left"
+    "direction": "left",
+    "background": "chari2.png"
 }, {
     "skit": "Me wacky",
     "text": "waaah",
@@ -554,7 +558,8 @@
 }, {
     "skit": "Me tire",
     "text": "*shudders*",
-    "direction": "right"
+    "direction": "right",
+    "background": "nightsky.png"
 }, {
     "skit": "Me tire",
     "text": "*shakes*",
