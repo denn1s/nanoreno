@@ -1,95 +1,30 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   version="1.1"
-   id="svg2"
-   viewBox="0 0 413.547 479.85001"
-   height="479.85001"
-   width="413.547">
-  <defs
-     id="defs4" />
-  <metadata
-     id="metadata7">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     transform="translate(0,-572.51216)"
-     id="layer1">
-    <g
-       transform="translate(-140.73882,296.08257)"
-       id="g4191">
-      <g
-         id="g4172"
-         transform="translate(731.42857,191.42857)">
-        <path
-           d="m -267.69043,502.83923 -90.57742,-30.53559 -23.90942,92.54745 -49.75843,-81.61366 -77.80404,55.52678 14.34309,-94.50379 -95.29328,-7.47549 71.73331,-63.17455 -68.19374,-66.97989 95.55872,-2.28523 -9.18559,-95.14366 74.67115,59.67337 54.1206,-78.78866 18.84411,93.71015 92.10316,-25.56757 -45.8003,83.8989 86.98963,39.61688 -89.01423,34.83042 z"
-           id="path4170"
-           style="opacity:1;fill:#ffdd55;fill-opacity:0.46000001;stroke:none;stroke-width:6.30000019;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-        <path
-           id="rect4159"
-           d="m -470.73106,451.32145 138.02397,6.19901 24.61059,19.0548 -14.14213,44.44671 -157.58381,2.02031 -29.3094,-37.48005 z"
-           style="opacity:1;fill:#dacfcf;fill-opacity:1;stroke:none;stroke-width:6.30000019;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-        <path
-           id="rect4153"
-           d="m -545.97261,270.87178 106.65641,9.4324 111.65785,-12.8705 115.01867,10.58096 -127.14286,109.89125 -109.7615,7.14285 z"
-           style="opacity:1;fill:#a05a2c;fill-opacity:1;stroke:none;stroke-width:6.30000019;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-        <path
-           id="rect4156"
-           d="m -545,273.79078 107.85715,19.28571 96.37362,-5.98901 117.16541,-5.43898 -117.11046,75.71371 -134.28572,0 z"
-           style="opacity:1;fill:#804823;fill-opacity:1;stroke:none;stroke-width:6.30000019;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-        <path
-           id="rect4136"
-           d="m -574.28571,283.79077 c 6.20252,-6.83674 2.79567,-16.41902 26.08564,-18.37363 l 115.85478,60.80004 213.09601,-47.89428 42.10643,5.46787 -165.66502,208.57143 -116.32045,0 z"
-           style="opacity:1;fill:#c8b7b7;fill-opacity:1;stroke:none;stroke-width:6.30000019;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-        <path
-           id="path4151"
-           d="m -462.86133,485.60156 3.73242,6.75977 116.32032,0 165.66601,-208.57031 c -13.55808,-2.10955 -16.55445,-10.55613 -42.10742,-5.46875 l -207.93359,46.73437 z"
-           style="opacity:1;fill:#9f8282;fill-opacity:1;stroke:none;stroke-width:6.30000019;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:112.95845032px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="-822.67975"
-           y="327.82193"
-           id="text4166"
-           transform="scale(0.68456681,1.4607778)"><tspan
-             id="tspan4168"
-             x="-822.67975"
-             y="327.82193">Continue</tspan></text>
-        <text
-           transform="scale(0.6845668,1.4607778)"
-           id="text4162"
-           y="322.98132"
-           x="-828.58221"
-           style="font-style:normal;font-weight:normal;font-size:112.95845032px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           xml:space="preserve"><tspan
-             y="322.98132"
-             x="-828.58221"
-             id="tspan4164">Continue</tspan></text>
-      </g>
-      <path
-         style="opacity:1;fill:#e9e9e9;fill-opacity:1;stroke:none;stroke-width:6.30000019;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         d="m 284.28572,343.79076 56.11465,-67.36123 -21.46908,84.79635 8.21158,61.13631 1.42857,52.85715 -37.14286,-40 12.82144,-44.17131 z"
-         id="rect4184" />
-      <path
-         id="path4187"
-         d="m 362.85715,359.31569 50.40037,-55.74329 -19.28284,70.17133 7.37538,50.592 1.28309,43.74076 -33.36051,-33.10111 11.5158,-36.55299 z"
-         style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:6.30000019;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <path
-         style="opacity:1;fill:#bbbbbb;fill-opacity:1;stroke:none;stroke-width:6.30000019;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         d="m 226.24309,381.52306 40.77135,-45.09351 -15.59884,56.76507 5.96631,40.92637 1.03795,35.38407 -26.98697,-26.77713 9.31571,-29.56952 z"
-         id="path4189" />
-    </g>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="svg2" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-98 157.1 413.5 479.9"
+	 enable-background="new -98 157.1 413.5 479.9" xml:space="preserve">
+<g id="layer1" transform="translate(0,-572.51216)">
+	<g id="g4191" transform="translate(-140.73882,296.08257)">
+		<g id="g4172" transform="translate(731.42857,191.42857)">
+			<path id="path4170" fill="#FFDD55" fill-opacity="0.46" d="M-365.7,660l-90.6-30.5l-23.9,92.5l-49.8-81.6l-77.8,55.5l14.3-94.5
+				l-95.3-7.5l71.7-63.2l-68.2-67l95.6-2.3l-9.2-95.1l74.7,59.7l54.1-78.8l18.8,93.7l92.1-25.6l-45.8,83.9l87,39.6l-89,34.8
+				L-365.7,660z"/>
+			<path id="rect4159" fill="#DACFCF" d="M-568.7,608.5l138,6.2l24.6,19.1l-14.1,44.4l-157.6,2l-29.3-37.5L-568.7,608.5z"/>
+			<path id="rect4153" fill="#A05A2C" d="M-644,428l106.7,9.4l111.7-12.9l115,10.6l-127.1,109.9l-109.8,7.1L-644,428z"/>
+			<path id="rect4156" fill="#804823" d="M-643,430.9l107.9,19.3l96.4-6l117.2-5.4l-117.1,75.7H-573L-643,430.9z"/>
+			<path id="rect4136" fill="#C8B7B7" d="M-672.3,440.9c6.2-6.8,2.8-16.4,26.1-18.4l115.9,60.8l213.1-47.9l42.1,5.5l-165.7,208.6
+				h-116.3L-672.3,440.9z"/>
+			<path id="path4151" fill="#9F8282" d="M-560.9,642.8l3.7,6.8h116.3l165.7-208.6c-13.6-2.1-16.6-10.6-42.1-5.5l-207.9,46.7
+				L-560.9,642.8z"/>
+			<text transform="matrix(0.4686 0 0 1 -661.179 636.0246)" font-family="'ArialMT'" font-size="165.0072">Continue</text>
+			<text transform="matrix(0.4686 0 0 1 -665.2201 628.9536)" fill="#FFFFFF" font-family="'ArialMT'" font-size="165.0072">Continue</text>
+			
+				<text transform="matrix(0.4686 0 0 1 -665.2201 628.9536)" fill="none" stroke="#000000" font-family="'ArialMT'" font-size="165.0072">Continue</text>
+		</g>
+		<path id="rect4184" fill="#E9E9E9" d="M186.3,500.9l56.1-67.4l-21.5,84.8l8.2,61.1l1.4,52.9l-37.1-40l12.8-44.2L186.3,500.9z"/>
+		<path id="path4187" fill="#CCCCCC" d="M264.9,516.5l50.4-55.7L296,530.9l7.4,50.6l1.3,43.7l-33.4-33.1l11.5-36.6L264.9,516.5z"/>
+		<path id="path4189" fill="#BBBBBB" d="M128.2,538.7l40.8-45.1l-15.6,56.8l6,40.9l1,35.4l-27-26.8l9.3-29.6L128.2,538.7z"/>
+	</g>
+</g>
 </svg>

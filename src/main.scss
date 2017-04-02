@@ -1,0 +1,55 @@
+.start-background {
+  width: 100vw;
+  height: 100vh;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-color: #000;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.start-button {
+  color: #193671;
+  text-decoration: none;
+  font-size: 10pc;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin-left: -5pc;
+  line-height: 12pc;
+  z-index: 0;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: -25%;
+    height: 3pc;
+    background: #C43C3C;
+    background: linear-gradient(135deg, #c43c3c 0%,#480606 100%);
+    width: 150%;
+    top: 50%;
+    margin-top: 0;
+    border-radius: 50%;
+    z-index: -1;
+  }
+
+  &::after {
+    content: 'Start';
+    position: absolute;
+    color: #FFF;
+    left: -8px;
+    top: -5px;;
+  }
+}
+
+.credits {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  line-height: 50vh;
+  background-color: #000;
+  color: #FFF;
+  font-size: 10pc;
+}

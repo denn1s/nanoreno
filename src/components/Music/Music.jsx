@@ -10,14 +10,14 @@ export default class Music extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      nowPlaying: props.cut.music,
+      nowPlaying: props.cut.music || null,
       initVolume: 0,
       finalVolume: 100
     }
   }
 
   componentWillReceiveProps(nextProps) {
-    if (nextProps.cut.music && nextProps.cut.music !== this.state.nowPlaying) {
+    if (nextProps.cut && nextProps.cut.music && nextProps.cut.music !== this.state.nowPlaying) {
       this.setState({
         ...this.state,
         nowPlaying: nextProps.cut.music || null,
@@ -28,7 +28,7 @@ export default class Music extends React.Component {
   }
 
   render() {
-    const nowPlaying = require(`Assets/music/${this.state.nowPlaying}`)
+    const nowPlaying = this.state.nowPlaying ? require(`Assets/music/${this.state.nowPlaying}`) : null
 
     /*
     <Motion defaultStyle={{ volume: this.state.initVolume }} style={{ volume: spring(this.state.finalVolume) }}>
@@ -37,7 +37,7 @@ export default class Music extends React.Component {
     */
 
     return (
-      <embed loop="true" hidden="true" src={nowPlaying} type="audio/mpeg" />
+      <div>{ this.state.nowPlaying  && <embed loop="true" hidden="true" src={nowPlaying} type="audio/mpeg" /> }</div>
     )
   }
 }
