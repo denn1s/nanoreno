@@ -8,7 +8,8 @@ class Credits extends React.Component {
   render() {
     return (
       <div styleName='credits'>
-        {"THANK YOU FOR PLAYING Game By Oscar & Dennis"}
+        THANK YOU FOR PLAYING Game By 
+        <a href="https://twitter.com/Moraleszez"> Oscar </a> and  <a href="http://dennisaldana.com"> Dennis </a>
       </div>
     )
   }
