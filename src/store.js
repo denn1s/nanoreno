@@ -20,6 +20,8 @@ const reducer = (state = initialState, action) => {
   switch (action.type) {
     case 'GAME': 
       return { ...state, pageOn:"game"}
+    case 'CREDITS': 
+      return { ...state, pageOn:"credits"}
     case 'UPDATE_SPOTLIGHT':
       return { ...state, spotlight: action.spotlight }
     case 'UPDATE_CUT':

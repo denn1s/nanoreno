@@ -21,6 +21,8 @@ class MainGame extends React.Component {
         current = <Start />;
     }else if(this.props.pageOn == "game"){
         current = <Scene />;
+    }else {
+        current = <Credits />;
     }
     return (
        current

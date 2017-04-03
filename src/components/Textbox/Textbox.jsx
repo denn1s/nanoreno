@@ -1,5 +1,6 @@
 import React, { PropTypes } from 'react'
 import { connect } from 'react-redux'
+import store from '../../store'
 import NormalTextbox from './NormalTextbox'
 
 
@@ -18,8 +19,14 @@ export default class Textbox extends React.Component {
         <NormalTextbox text={text} name={char.name} />
       )
     } else {
-      setTimeout(() => { window.location = '/credits' }, 3000)
+      setTimeout(() => {  store.dispatch(toCredits()); }, 1200)
       return <div />
     }
+  }
+}
+
+function toCredits(){
+  return {
+    type: 'CREDITS'
   }
 }
