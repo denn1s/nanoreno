@@ -6,7 +6,7 @@
     "music": "TheStart.ogg"
 }, {
     "skit": "Me undefined",
-    "text": "ugghh, i don’t want to get up though",
+    "text": "ugghh, I don’t want to get up though",
     "direction": "right"
 }, {
     "skit": "Me tire",
@@ -14,19 +14,19 @@
     "direction": "right"
 }, {
     "skit": "Me undefined",
-    "text": "crap, i'll get up i guess",
+    "text": "crap, I guess I have to get up",
     "direction": "right"
 }, {
     "skit": "Me undefined",
-    "text": "why does everything suck...",
+    "text": "I wish coffee would just come to me magically",
     "direction": "right"
 }, {
     "skit": "Me happy",
-    "text": "I'm going to make extra strong coffee",
+    "text": "but if I'm going to binge this show...",
     "direction": "right"
 }, {
     "skit": "Me happier",
-    "text": "so i can stay awake through the night!",
+    "text": "...I'm going to need extra strong coffee",
     "direction": "right"
 }, {
     "skit": "Me undefined",
@@ -34,11 +34,11 @@
     "direction": "right"
 }, {
     "skit": "Me tire",
-    "text": "NO! there's not coffee left",
+    "text": "NO! there's no coffee left",
     "direction": "right"
 }, {
-    "skit": "Me neutral",
-    "text": "past me, you have made a strong enemy today",
+    "skit": "Me undefined",
+    "text": "past me, you have made a strong enemy today!",
     "direction": "right"
 }, {
     "skit": "Me neutral",
@@ -46,15 +46,15 @@
     "direction": "right"
 }, {
     "skit": "Me neutral",
-    "text": "or... I could go to the store, I might make it yet",
+    "text": "or... I could go to the store, and buy some coffee",
     "direction": "right"
 }, {
     "skit": "Me neutral",
-    "text": "but there might be too many people",
+    "text": "but there will be many people",
     "direction": "right"
 }, {
     "skit": "Me neutral",
-    "text": "I'll just wait while, give them a chance to go home",
+    "text": "DO I risk getting into social interactions over coffee?",
     "direction": "right"
 }, {
     "skit": "Me undefined",
@@ -62,7 +62,7 @@
     "direction": "right"
 }, {
     "skit": "Me neutral",
-    "text": "ok, I'm heading out, no more waiting",
+    "text": "It's a risk i'm willing to take, I guess",
     "direction": "right"
 }, {
     "skit": "Me neutral",
@@ -72,7 +72,7 @@
     
 }, {
     "skit": "Me neutral",
-    "text": "but there might be too many people there",
+    "text": "but the risks of getting into social meddling is high",
     "direction": "right"
 }, {
     "skit": "Me undefined",
@@ -80,23 +80,23 @@
     "direction": "right"
 }, {
     "skit": "Me neutral",
-    "text": "mmmm what do i do",
+    "text": "mmmm what should I do",
     "direction": "right"
 }, {
     "skit": "Me neutral",
-    "text": "I could stop by a coffe shop",
+    "text": "I could stop by a coffe shop, mom pop style place",
     "direction": "right"
 }, {
     "skit": "Me happy",
-    "text": "please my addiction and then head to the store",
+    "text": "get my fix, then head to the store",
     "direction": "right"
 }, {
     "skit": "Me happy",
-    "text": "right then a quick coffee to straighten me back up",
+    "text": "yes I'll get the strongest coffee they have!",
     "direction": "right"
 }, {
     "skit": "Me undefined",
-    "text": "then i'll face the store",
+    "text": "then I'll face the store",
     "direction": "right"
 }, {
     "skit": "Alia happy",
@@ -110,7 +110,7 @@
     "direction": "right"
 }, {
     "skit": "Alia happy",
-    "text": "what can i get for you today?",
+    "text": "what can I get for you today?",
     "direction": "left"
 }, {
     "skit": "Me wacky",
@@ -118,15 +118,15 @@
     "direction": "right"
 }, {
     "skit": "Me wacky",
-    "text": "coffee drink",
+    "text": "a coffee to drink",
     "direction": "right"
 }, {
     "skit": "Me wacky",
-    "text": "I mean a",
+    "text": "you know...",
     "direction": "right"
 }, {
     "skit": "Alia happy",
-    "text": "ok a cold coffee",
+    "text": "ok a cold coffee then",
     "direction": "left"
 }, {
     "skit": "Me worry",
@@ -134,19 +134,19 @@
     "direction": "right"
 }, {
     "skit": "Alia worry",
-    "text": "oh, ok a warm coffee and what size would you like?",
+    "text": "oh, ok wtf, a warm coffee and what size would you like?",
     "direction": "left"
 }, {
     "skit": "Me neutral",
-    "text": "just medium please",
+    "text": "a medium will do it",
     "direction": "right"
 }, {
     "skit": "Alia tire",
-    "text": "We got large, tall and big",
+    "text": "we got large, tall and big",
     "direction": "left"
 }, {
     "skit": "Me wacky",
-    "text": "those all sound the same",
+    "text": "aren't those all the same thing?",
     "direction": "right"
 }, {
     "skit": "Alia tire",
@@ -154,15 +154,15 @@
     "direction": "left"
 }, {
     "skit": "Alia tire",
-    "text": "but then i started working here and they're totally different",
+    "text": "but then I started working here and they're totally different",
     "direction": "left"
 }, {
     "skit": "Alia happy",
-    "text": "so i'm going to put you down for a big",
+    "text": "anyhow I'm going to put you down for a big",
     "direction": "left"
 }, {
     "skit": "Me worry",
-    "text": "is that the largest one?",
+    "text": "be that the largest one here?",
     "direction": "right"
 }, {
     "skit": "Alia tire",
@@ -170,7 +170,7 @@
     "direction": "left"
 }, {
     "skit": "Me wacky",
-    "text": "can you get me the one below the largest one?",
+    "text": "ah then please the one below the largest one",
     "direction": "right"
 }, {
     "skit": "Alia worry",
@@ -182,7 +182,7 @@
     "direction": "left"
 }, {
     "skit": "Me uncomfortable",
-    "text": "yes please sorry",
+    "text": "eck sorry.... a big is fine",
     "direction": "right"
 }, {
     "skit": "Alia tire",
@@ -190,7 +190,7 @@
     "direction": "left"
 }, {
     "skit": "Me neutral",
-    "text": "here",
+    "text": "there you go",
     "direction": "right"
 }, {
     "skit": "Alia tire",
@@ -198,7 +198,7 @@
     "direction": "left"
 }, {
     "skit": "Me wacky",
-    "text": "no thank you, i'm fine",
+    "text": "no",
     "direction": "right"
 }, {
     "skit": "Alia wacky",
@@ -206,15 +206,15 @@
     "direction": "left"
 }, {
     "skit": "Me uncomfortable",
-    "text": "oh, but what did i pay for?",
+    "text": "huh? got it, honest mistake",
     "direction": "right"
 }, {
     "skit": "Alia mad",
-    "text": "Did you say something?, you shouldn't mumble",
+    "text": "did you say something?, you shouldn't mumble",
     "direction": "left"
 }, {
     "skit": "Me wacky",
-    "text": "No, here you go",
+    "text": "no, here you go",
     "direction": "right"
 }, {
     "skit": "Me tire",
@@ -226,7 +226,7 @@
     "direction": "right"
 }, {
     "skit": "Me undefined",
-    "text": "(i know i should have stayed home)",
+    "text": "(I know I should have stayed home)",
     "direction": "right"
 }, {
     "skit": "Me undefined",
@@ -246,7 +246,7 @@
     "direction": "left"
 }, {
     "skit": "Me worry",
-    "text": "he ah you heard that, sorry",
+    "text": "eh you heard that, sorry...",
     "direction": "right"
 }, {
     "skit": "Jokel happy",
@@ -262,11 +262,11 @@
     "direction": "right"
 }, {
     "skit": "Me sad",
-    "text": "ugh why do i even talk",
+    "text": "hopefully he understood what i meant",
     "direction": "right"
 }, {
     "skit": "Me sad",
-    "text": "(i'm going to seat down to drink this)",
+    "text": "(I'm going to sit down to drink this)",
     "direction": "right"
 }, {
     "skit": "Me tire",
@@ -275,12 +275,12 @@
     "background": "chair.png"
 }, {
     "skit": "May happy",
-    "text": "Hello",
+    "text": "hello",
     "direction": "left",
     "background": "chari2.png"
 }, {
     "skit": "Me happy",
-    "text": "hi...",
+    "text": "oh hi...",
     "direction": "right"
 }, {
     "skit": "May happy",
@@ -288,7 +288,7 @@
     "direction": "left"
 }, {
     "skit": "Me wacky",
-    "text": "i.. i don't think that's mine",
+    "text": "I.. I don't think that's mine",
     "direction": "right"
 }, {
     "skit": "May neutral",
@@ -296,7 +296,7 @@
     "direction": "left"
 }, {
     "skit": "Me worry",
-    "text": "i have my coffee right.. here",
+    "text": "I have my coffee right.. here",
     "direction": "right"
 }, {
     "skit": "May worry",
@@ -304,7 +304,7 @@
     "direction": "left"
 }, {
     "skit": "Me worry",
-    "text": "no i have mine",
+    "text": "no I have mine",
     "direction": "right"
 }, {
     "skit": "May worry",
@@ -326,20 +326,20 @@
 }, {
     "skit": "Alia mad",
     "text": "hey jerk, here's your large coffee",
-    "direction": "left",
-    "background": "chari2.png"
+    "direction": "left"
 }, {
     "skit": "Me wacky",
     "text": "waaah",
     "direction": "right"
 }, {
     "skit": "Alia mad",
-    "text": "you're really fucked up huh",
+    "text": "the fuck is wrong with you",
     "direction": "left",
+    "background": "chari2.png",
     "music": "DeathAwaits.ogg"
 }, {
     "skit": "Alia mad",
-    "text": "saying those horrible things to May",
+    "text": "saying them horrible things to May",
     "direction": "left"
 }, {
     "skit": "Alia madder",
@@ -351,15 +351,15 @@
     "direction": "right"
 }, {
     "skit": "Alia worry",
-    "text": "the way you treat people is really fucked up",
+    "text": "you enjoy going around treating people like shit?",
     "direction": "left"
 }, {
     "skit": "Me sad",
-    "text": "iiii.. ididntsay..",
+    "text": "IIII.. ididntsay..",
     "direction": "right"
 }, {
     "skit": "Me sad",
-    "text": "i don't know what i did wrong",
+    "text": "refusing coffee is my only crime!",
     "direction": "right"
 }, {
     "skit": "Alia maddest",
@@ -371,7 +371,7 @@
     "direction": "left"
 }, {
     "skit": "Me sad",
-    "text": "but i didn't order a large coffee",
+    "text": "I didn't treat her like shit though",
     "direction": "right"
 }, {
     "skit": "Alia maddest",
@@ -379,7 +379,7 @@
     "direction": "left"
 }, {
     "skit": "Alia worry",
-    "text": "yes you did, i remember",
+    "text": "yes you did, i heard it",
     "direction": "left"
 }, {
     "skit": "Katy neutral",
@@ -387,7 +387,7 @@
     "direction": "left"
 }, {
     "skit": "Me neutral",
-    "text": "(she looks like a manager)",
+    "text": "(she looks like a manager, child sized)",
     "direction": "right"
 }, {
     "skit": "Me wacky",
@@ -403,7 +403,7 @@
     "direction": "left"
 }, {
     "skit": "Me tire",
-    "text": "wait waht",
+    "text": "I didn't treat her like shit, she's lying",
     "direction": "right"
 }, {
     "skit": "Katy madder",
@@ -411,23 +411,23 @@
     "direction": "right"
 }, {
     "skit": "Me happy",
-    "text": "(yes please explain to her i did nothing wrong)",
+    "text": "(yes please explain to her I did nothing wrong)",
     "direction": "right"
 }, {
     "skit": "Katy mad",
-    "text": "so our coffee is no good for you?",
+    "text": "so what? our coffee isn't good enough for ya?",
     "direction": "left"
 }, {
     "skit": "Me exhausted",
-    "text": "(huh)",
+    "text": "(huhhh)",
     "direction": "right"
 }, {
     "skit": "Katy neutral",
-    "text": "fine i get it, but to treat some one like that",
+    "text": "that... and you treat my employees like shit?",
     "direction": "left"
 }, {
     "skit": "Katy madder",
-    "text": "just because you hate our coffee",
+    "text": "just because you hate our coffee?",
     "direction": "left"
 }, {
     "skit": "Me sad",
@@ -443,23 +443,23 @@
     "direction": "left"
 }, {
     "skit": "Me uncomfortable",
-    "text": "sorry.. i didn't",
+    "text": "she is a lying!",
     "direction": "right"
 }, {
     "skit": "Me wacky",
-    "text": "i just wanted a coffee",
+    "text": "I just wanted a big coffee and privacy",
     "direction": "right"
 }, {
     "skit": "Katy mad",
-    "text": "i bet you get off on treating people like that",
+    "text": "yea I bet you did, and treating May like shit was icing for you",
     "direction": "left"
 }, {
     "skit": "Policeman neutral",
-    "text": "what's going on here?",
+    "text": "what's da matta here?",
     "direction": "right"
 }, {
     "skit": "Alia happy",
-    "text": "this head case order a coffee and is refusing to take it",
+    "text": "this nutjob order a coffee and is refusing to take it",
     "direction": "left"
 }, {
     "skit": "Alia wacky",
@@ -467,15 +467,15 @@
     "direction": "left"
 }, {
     "skit": "Policeman tire",
-    "text": "unbelievable",
+    "text": "rightous",
     "direction": "right"
 }, {
     "skit": "Me worry",
-    "text": "i just wanted a coffee",
+    "text": "I just wanted a coffee, sir no need to get involved",
     "direction": "right"
 }, {
     "skit": "Me sad",
-    "text": "i never meant to...",
+    "text": "and they are a lying",
     "direction": "right"
 }, {
     "skit": "Alia worry",
@@ -483,23 +483,23 @@
     "direction": "left"
 }, {
     "skit": "Me neutral",
-    "text": "i only wanted one",
+    "text": "she brought two",
     "direction": "right"
 }, {
     "skit": "Me tire",
-    "text": "(why can't they understand)",
+    "text": "(how is this my fault)",
     "direction": "right"
 }, {
     "skit": "Alia worry",
-    "text": "you order both",
+    "text": "you order both, bad guy",
     "direction": "left"
 }, {
     "skit": "Policeman mad",
-    "text": "look bud, if you won't take the coffee",
+    "text": "look hombre, if you won't take the coffee and this serious",
     "direction": "left"
 }, {
     "skit": "Policeman undefined",
-    "text": "i'm going to have to arrest you",
+    "text": "then you leave me no choice but to arrest you",
     "direction": "left"
 }, {
     "skit": "Me exhausted",
@@ -507,7 +507,7 @@
     "direction": "right"
 }, {
     "skit": "Katy neutral",
-    "text": "Officer please!",
+    "text": "Officer, officcer please!",
     "direction": "right"
 }, {
     "skit": "Me happier",
@@ -515,11 +515,11 @@
     "direction": "right"
 }, {
     "skit": "Me neutral",
-    "text": "please don't arrest me",
+    "text": "this is nuts",
     "direction": "right"
 }, {
     "skit": "Katy undefined",
-    "text": "Don't fucking interrupt me, you piece of shit!",
+    "text": "Don't fucking interrupt me, you ass!",
     "direction": "left"
 }, {
     "skit": "Me exhausted",
@@ -531,7 +531,7 @@
     "direction": "left"
 }, {
     "skit": "Katy maddest",
-    "text": "officer please remove this man!",
+    "text": "officer, this man should NOT be here take him away!",
     "direction": "left"
 }, {
     "skit": "Policeman tire",
@@ -543,19 +543,19 @@
     "direction": "left"
 }, {
     "skit": "Policeman mad",
-    "text": "you're going away for a long time bud",
+    "text": "don't make me have to get ya",
     "direction": "left"
 }, {
     "skit": "Me sad",
-    "text": "wait! i'll take the coffee",
+    "text": "wait! I'll take the damn coffee",
     "direction": "right"
 }, {
     "skit": "Me uncomfortable",
-    "text": "please don't take me away",
+    "text": "please just leave me alone",
     "direction": "right"
 }, {
     "skit": "Policeman undefined",
-    "text": "too late scumbag",
+    "text": "too late bad guy",
     "direction": "left"
 }, {
     "skit": "Me tire",
@@ -572,7 +572,7 @@
     "direction": "right"
 }, {
     "skit": "Me tire",
-    "text": "*stops*",
+    "text": "something like that might happen",
     "direction": "right"
 }, {
     "skit": "Me happy",
@@ -584,6 +584,6 @@
     "direction": "right"
 }, {
     "skit": "Me happier",
-    "text": "(jail sounds like no fun)",
+    "text": "sigh",
     "direction": "right"
 }]
