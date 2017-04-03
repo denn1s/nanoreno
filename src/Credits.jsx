@@ -8,7 +8,7 @@ class Credits extends React.Component {
   render() {
     return (
       <div styleName='credits'>
-        THANK YOU FOR PLAYING
+        {"THANK YOU FOR PLAYING Game By Oscar & Dennis"}
       </div>
     )
   }
