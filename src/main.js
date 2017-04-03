@@ -24,11 +24,6 @@ function renderComponent(component) {
 function render(location) {
   console.log(location.pathname)
   return renderComponent(<MainGame />)
-  /*if (location.pathname === '/credits') {
-    return renderComponent(<Credits />)
-  } else if (location.pathname === '/game') {
-    return renderComponent(<Scene />)
-  }*/
 
   // router.resolve(routes, location)
   //   .then(renderComponent)

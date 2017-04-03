@@ -9,7 +9,7 @@ import Start from './Start'
 import Credits from './Credits'
 
 @connect(
-  state => ({ pageOn: state.pageOn, characters: state.characters })
+  state => ({ pageOn: state.pageOn })
 )
 @CSSModules(styles)
 class MainGame extends React.Component {
