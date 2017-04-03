@@ -140,14 +140,14 @@ const config = {
         test: /\.(woff|woff2)$/,
         loader: 'url-loader',
         options: {
-          limit: 10000,
+          limit: 100000,
         },
       },
       {
         test: /\.(png|jpg|jpeg|gif)$/,
         loader: 'url-loader',
         options: {
-          limit: 10000,
+          limit: 3000000
         },
       },
       {
@@ -156,7 +156,10 @@ const config = {
       },
       {
         test: /\.(eot|ttf|wav|mp3|ogg)$/,
-        loader: 'file-loader',
+        loader: 'url-loader',
+        options: {
+          limit: 1000000
+        },
       },
     ],
   },
